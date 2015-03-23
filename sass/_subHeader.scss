@@ -1,0 +1,50 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN3_line{
+    background: url("../img/lineDotX2.png") repeat-x;
+    margin-top: 31px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+  }
+  .styleN4_Caption{
+    font-family: "Open Sans";
+    color: $primaryTxt-color;
+    font-size: 18px;
+    text-align: left;
+  }
+  .styleN5_line{
+    background: url("../img/lineDotX2.png") repeat-x;
+    padding-top: 3px;
+    margin-top: 15px;
+  }
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN3_line{
+    background: url("../img/lineDotX2.png") repeat-x;
+    margin-top: 30px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+  }
+  .styleN4_Caption{
+    font-family: "Open Sans";
+    color: $primaryTxt-color;
+    font-size: 18px;
+    text-align: left;
+    overflow: hidden;
+  }
+  .styleN5_line{
+    background: url("../img/lineDotX2.png") repeat-x;
+    padding-top: 3px;
+    margin-top: 17px;
+  }
+}

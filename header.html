@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HEADER SECTION</title>
+    <link href="css/svitla.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/global.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <script src="javascripts/jquery-2.1.3.js"></script>
+
+</head>
+<body>
+<script>
+    jQuery(function($){
+
+        $( '.styleN2_2HumburgerImg' ).click(function(){
+            $(".styleN2_4Menu").toggleClass("styleN2_5Show");
+
+            if ($('.styleN2_2HumburgerImg').attr("src")=="img/hamburger.png"){
+                $('.styleN2_2HumburgerImg').attr("src","img/cross.png");
+            }
+            else {
+                $('.styleN2_2HumburgerImg').attr("src","img/hamburger.png");
+
+            }
+
+        })
+    })
+
+</script>
+<div class="raw background">
+<!--////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////-->
+<!--//////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////-->
+
+        <div class="row rowHeader">
+            <div class="rowContent">
+                <div class="M4 S10"><img src="img/logo.png" alt="" class="styleN1_logo"/></div>
+                <div class="M8 hiddenS styleN2_linksHeader">
+                    <a href="#">HOME</a>
+                    <a href="#" class="active">PORTFOLIO</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#"><img src="img/facebook.png" alt=""/></a>
+                    <a href="#"><img src="img/twitter.png" alt=""/></a>
+
+
+                </div>
+                <div class="S2 hiddenM hiddenL styleN2_1Humburger">
+                    <img src="img/hamburger.png" alt="" class="styleN2_2HumburgerImg"/>
+                    
+                </div>
+
+
+            </div>
+            <div class="hiddenM hiddenL">
+                <div class="row styleN2_4Menu S12">
+                   <div class="row"><a href="#">HOME</a></div>
+                   <div class="row"><a href="#" class="active">PORTFOLIO</a></div>
+                   <div class="row"><a href="#">ABOUT</a></div>
+                   <div class="row"><a href="#">CONTACT</a></div>
+                </div>
+            </div>
+        </div>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--//////////////////////////////////////////SUB HEADER/////////////////////////////////////////////////////////////-->
+<div class="row rowContent">
+    <div class="row styleN3_line"></div>
+    <div class="row styleN4_Caption">ABOUT</div>
+    <div class="row styleN5_line"></div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

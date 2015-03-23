@@ -1,0 +1,245 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN6_ContactTitle{
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: $primaryTxt-color;
+    padding-top: 48px;
+    margin-bottom:30px;
+  }
+  .styleN7_ContactTxt{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: $primaryTxt-color;
+    margin-bottom: 45px;
+
+  }
+  .styleN8_ContactMap{
+    margin-bottom: 28px;
+  }
+  .styleN9_ContactDetail {
+    margin-bottom: 35px;
+    font-family:"Open Sans";
+    color:$primaryTxt-color;
+    font-size: 30.005px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+  }
+  .styleN10_ContactEmail{
+    font-family:"Open Sans";
+    color:$link-color;
+    font-size: 21.998px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 34px;
+  }
+  .styleN11_ContactPhone{
+    font-family:"Open Sans";
+    color:$primaryTxt-color;
+    font-size: 21.998px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 34px;
+  }
+  .styleN12_ContactAddr{
+    font-family:"Open Sans";
+    margin-bottom: 31px;
+    color:$primaryTxt-color;
+    font-size: 21.998px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .styleN13_ContactLine{
+    border-bottom: 1px dotted #bebebd;
+    margin-bottom: 30px;
+
+  }
+  .styleN14_inputName{
+    font-family: "Open Sans";
+    font-size: 20px;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 13px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 19px;
+  }
+  .styleN15_inputAddr{
+    font-family: "Open Sans";
+    font-size: 20px;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 13px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 18px;
+  }
+  .styleN16_txtArea {
+    font-family: "Open Sans";
+    font-size: 20px;
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 13px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    height: 158px;
+    resize: none;
+    margin-bottom: 21px;
+  }
+  .styleN17_btnSend{
+    text-align: right;
+    margin-bottom: 51px;
+    input{
+      font-family: "Open Sans";
+      font-size: 25px;
+      font-weight: 400;
+      color: #fff;
+      width:100%;
+      background-color: $link-color;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 80px;
+      padding-top: 30px;
+      padding-bottom: 29px;
+    }
+
+  }
+
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN6_ContactTitle{
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: $primaryTxt-color;
+    padding-top: 51px;
+    margin-bottom:20px;
+  }
+  .styleN7_ContactTxt{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: $primaryTxt-color;
+    margin-bottom: 45px;
+
+  }
+  .styleN8_ContactMap{
+    margin-bottom: 30px;
+  }
+  .styleN9_ContactDetail{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: $primaryTxt-color;
+    margin-bottom: 10px;
+    margin-left: 24px;
+  }
+  .styleN10_ContactEmail{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: $link-color;
+    margin-bottom: 10px;
+    margin-left: 24px;
+  }
+  .styleN11_ContactPhone{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: $primaryTxt-color;
+    margin-bottom: 10px;
+    margin-left: 24px;
+  }
+  .styleN12_ContactAddr{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: $primaryTxt-color;
+    margin-left: 24px;
+
+  }
+  .styleN13_ContactLine{
+    border-bottom: 1px dotted #bebebd;
+
+  }
+  .styleN14_inputName{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 368px;
+    margin-top: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+  }
+  .styleN15_inputAddr{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 368px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 18px;
+
+  }
+  .styleN16_txtArea{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 769px;
+    height: 206px;
+    resize: none;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    padding-top: 18px;
+    padding-left: 13px;
+
+  }
+  .styleN17_btnSend{
+    text-align: right;
+    margin-bottom: 51px;
+    input{
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+      width: 203px;
+      height: 50px;
+      background-color: $link-color;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+  }
+
+}
+

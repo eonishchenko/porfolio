@@ -1,0 +1,229 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN30_Title{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 48px;  //!!!
+    margin-bottom: 30px; //!!!
+  }
+  .styleN31_Describe{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .styleN32_Line{
+    // border-bottom: 1px dotted #c1c0c0;
+    margin-bottom: 43px;
+  }
+  .styleN33_TeamBlock{
+    // width: 301px;
+    width:537px;
+    // margin-right: 100px;
+    margin:0 auto;
+    //
+
+    // &:last-child{ margin-right: 0px}
+  }
+  .styleN34_img{
+    text-align: center;
+    margin-bottom: 38px;
+    img{
+      border-radius: 50%;
+      border: 1px solid $link-color;
+    }
+  }
+  .styleN35_Name{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size:  32.799px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+
+  }
+  .styleN36_Position{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+
+    font-size: 24.982px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 27px;
+    border-bottom: 1px dotted #c1c0c0;
+    margin-bottom: 25px;
+    margin-left: 49px;
+    margin-right: 49px;
+
+  }
+  .styleN37_About{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 24.982px;
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  .styleN38_LevelBlock{
+    margin:0 auto;
+    &:nth-child(1) .styleN39_Percentage {background: url(../img/ellipse1.png) no-repeat;background-size: cover};
+    &:nth-child(2) .styleN39_Percentage {background: url(../img/ellipse2.png) no-repeat;background-size: cover};
+    &:nth-child(3) .styleN39_Percentage {background: url(../img/ellipse3.png) no-repeat;background-size: cover};
+    &:nth-child(4) .styleN39_Percentage {background: url(../img/ellipse4.png) no-repeat;background-size: cover};
+    &:nth-child(4) .styleN41_SkillDesc {margin-bottom: 92px;};
+    margin-bottom: 92px;
+  }
+  .styleN39_Percentage{
+    height: 151px;
+    width: 151px;
+    margin: 0 auto;
+    padding-top: 48px;
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size:  38.668px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 46px}
+  .styleN40_Skill{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 38.002px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  .styleN41_SkillDesc{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 30.01px;
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-bottom: 44px;
+
+  }
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN30_Title{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 35px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 20px;
+  }
+  .styleN31_Describe{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .styleN32_Line{
+    border-bottom: 1px dotted #c1c0c0;
+    margin-bottom: 50px;
+  }
+  .styleN33_TeamBlock{
+    width: 301px;
+    margin-right: 100px;
+    //
+
+    &:last-child{ margin-right: 0px}
+  }
+  .styleN34_img{
+    text-align: center;
+    margin-bottom: 20px;
+    img{
+      border-radius: 50%;
+      border: 1px solid $link-color;
+    }
+  }
+  .styleN35_Name{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .styleN36_Position{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #c1c0c0;
+    margin-bottom: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .styleN37_About{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  .styleN38_LevelBlock{
+    margin:0 auto;
+    &:nth-child(1) .styleN39_Percentage {background: url(../img/ellipse1.png) no-repeat;};
+    &:nth-child(2) .styleN39_Percentage {background: url(../img/ellipse2.png) no-repeat;};
+    &:nth-child(3) .styleN39_Percentage {background: url(../img/ellipse3.png) no-repeat;};
+    &:nth-child(4) .styleN39_Percentage {background: url(../img/ellipse4.png) no-repeat;};
+
+  }
+  .styleN39_Percentage{
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 22px;
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 21px}
+  .styleN40_Skill{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .styleN41_SkillDesc{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-bottom: 77px;
+  }
+}
+
+
+

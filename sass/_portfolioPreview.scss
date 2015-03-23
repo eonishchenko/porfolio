@@ -1,0 +1,178 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN42_links{
+    div:nth-child(1){text-align: left;
+      :before{
+        content:url("../img/arrowLeft.png");
+        margin-right: 4px;
+      }}
+    div:nth-child(2){text-align: right;
+      :after{
+        content:url("../img/arrowRight.png");
+        margin-left: 4px;
+      }}
+    a{
+      font-family: "Open Sans";
+      color:$link-color;
+      font-size: 12px; /* Приближение из-за подстановки шрифтов */
+      font-weight: 400;
+    }
+    padding-top: 21px;
+    padding-bottom: 18px;
+
+  }
+  .styleN43_Sample{
+    margin-bottom: 22px;
+    &:last-child{margin-bottom:30px; }
+
+  }
+  .styleN44_DetailBlock{
+    padding-bottom: 45px;
+  }
+  .styleN45_txtTitle{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 44.998px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 1px dotted #c1c0c0;
+    padding-bottom: 31px;
+    margin-bottom: 30px;
+  }
+  .styleN46_txtSkills{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 22.007px;
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 25px;
+  }
+  .styleN47_txtDate{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 22.007px;
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 25px;
+  }
+  .styleN48_txtClient{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 22.007px;
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 30px;
+  }
+  .styleN49_txtContent{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 22.007px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .styleN50_txtEmail{
+    font-family: "Open Sans";
+    color:  $link-color;
+    font-size: 22.007px;
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+  }
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN42_links{
+  div:nth-child(1){text-align: left;
+    :before{
+      content:url("../img/arrowLeft.png");
+      margin-right: 4px;
+    }}
+  div:nth-child(2){text-align: right;
+    :after{
+      content:url("../img/arrowRight.png");
+      margin-left: 4px;
+    }}
+  a{
+    font-family: "Open Sans";
+    color:$link-color;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+  }
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+  .styleN43_Sample{
+    margin-bottom: 31px;
+    &:last-child{margin-bottom:80px; }
+
+  }
+  .styleN44_DetailBlock{
+    width: 361px;
+    margin-left: 28px;
+  }
+  .styleN45_txtTitle{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 30px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 1px dotted #c1c0c0;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+  }
+  .styleN46_txtSkills{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 25px;
+  }
+  .styleN47_txtDate{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 25px;
+  }
+  .styleN48_txtClient{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    span{color: $primaryTxt-color;}
+    margin-bottom: 30px;
+  }
+  .styleN49_txtContent{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .styleN50_txtEmail{
+    font-family: "Open Sans";
+    color:  $link-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+  }}
+

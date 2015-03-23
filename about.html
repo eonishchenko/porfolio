@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link href="css/svitla.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/global.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <script src="javascripts/jquery-2.1.3.js"></script>
+</head>
+<body>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////HEADER SECTION////////////////////////////////////////////////////////////////
+-->
+<script>
+    jQuery(function($){
+
+        $( '.styleN2_2HumburgerImg' ).click(function(){
+            $(".styleN2_4Menu").toggleClass("styleN2_5Show");
+
+            if ($('.styleN2_2HumburgerImg').attr("src")=="img/hamburger.png"){
+                $('.styleN2_2HumburgerImg').attr("src","img/cross.png");
+            }
+            else {
+                $('.styleN2_2HumburgerImg').attr("src","img/hamburger.png");
+
+            }
+
+        })
+    })
+
+</script>
+<div class="raw background">
+    <!--////////////////////////////////////////////////////////////////
+
+
+    /////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////-->
+
+    <div class="row rowHeader">
+        <div class="rowContent">
+            <div class="M4 S10"><img src="img/logo.png" alt="" class="styleN1_logo"/></div>
+            <div class="M8 hiddenS styleN2_linksHeader">
+                <a href="home.html">HOME</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="about.html"  class="active">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="#"><img src="img/facebook.png" alt=""/></a>
+                <a href="#"><img src="img/twitter.png" alt=""/></a>
+
+
+            </div>
+            <div class="S2 hiddenM hiddenL styleN2_1Humburger">
+                <img src="img/hamburger.png" alt="" class="styleN2_2HumburgerImg"/>
+
+            </div>
+
+
+        </div>
+        <div class="hiddenM hiddenL">
+            <div class="row styleN2_4Menu S12">
+                <div class="row"><a href="home.html">HOME</a></div>
+                <div class="row"><a href="portfolio.html">PORTFOLIO</a></div>
+                <div class="row"><a href="about.html" class="active">ABOUT</a></div>
+                <div class="row"><a href="contact.html">CONTACT</a></div>
+            </div>
+        </div>
+    </div>
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////////SUB HEADER/////////////////////////////////////////////////////////////-->
+    <div class="row rowContent">
+        <div class="row styleN3_line"></div>
+        <div class="row styleN4_Caption">ABOUT</div>
+        <div class="row styleN5_line"></div>
+
+    </div>
+
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////CONTENT SECTION///////////////////////////////////////////////////////////////
+-->
+<div class="row rowContent">
+    <div class="M12 styleN30_Title">Who We Are? Meet Our Team!</div>
+    <div class="M12 styleN31_Describe">We listen, we discuss, we advise and develop. We love to learn and use the latest technologies.</div>
+    <div class="row  styleN32_Line">
+        <div class="M4 S12 styleN33_TeamBlock">
+            <div class="row styleN34_img"><img src="img/layer19.png" alt=""/></div>
+            <div class="row styleN35_Name">ALex G</div>
+            <div class="row styleN36_Position">CEO</div>
+            <div class="row styleN37_About">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget
+                mauris eget.</div>
+        </div>
+        <div class="M4 S12 styleN33_TeamBlock">
+            <div class="row styleN34_img"><img src="img/layer20.png" alt=""/></div>
+            <div class="row styleN35_Name">John Doe</div>
+            <div class="row styleN36_Position">Project Manager</div>
+            <div class="row styleN37_About">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget
+                mauris eget.</div>
+        </div>
+        <div class="M4 S12 styleN33_TeamBlock">
+            <div class="row styleN34_img"><img src="img/layer21.png" alt=""/></div>
+            <div class="row styleN35_Name">Anna White</div>
+            <div class="row styleN36_Position">Developer</div>
+            <div class="row styleN37_About">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget
+                mauris eget.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="M3 S12 styleN38_LevelBlock">
+            <div class="row styleN39_Percentage">92%</div>
+            <div class="row styleN40_Skill">HTML</div>
+            <div class="row styleN41_SkillDesc">Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</div>
+        </div>
+        <div class="M3 S12 styleN38_LevelBlock">
+            <div class="row styleN39_Percentage">85%</div>
+            <div class="row styleN40_Skill">CSS</div>
+            <div class="row styleN41_SkillDesc">Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</div>
+        </div>
+        <div class="M3 S12 styleN38_LevelBlock">
+            <div class="row styleN39_Percentage">45%</div>
+            <div class="row styleN40_Skill">Woocommerce</div>
+            <div class="row styleN41_SkillDesc">Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</div>
+        </div>
+        <div class="M3 S12 styleN38_LevelBlock">
+            <div class="row styleN39_Percentage">99%</div>
+            <div class="row styleN40_Skill">Fun</div>
+            <div class="row styleN41_SkillDesc">Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+<!--
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////FOOOTER SECTION///////////////////////////////////////////////////////////////
+-->
+
+<div class="row rowSection styleN18_FooterBG">
+    <div class="row styleN19_Logo"><img src="img/logo_Dots.png" alt=""/></div>
+    <div class="row styleN20_Links">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul></div>
+    <div class="row styleN21_About">Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs, lead by passionate and uber progressive team that lives and breathes design. Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs.</div>
+    <div class="row styleN22_Social">
+        <ul>
+            <li><a href="#"><img src="img/facebookFooter.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/twitterFooter.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/vimeo.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/tumblr.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/gPlus.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/behance.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/dribble.png" alt=""/></a></li>
+        </ul>
+    </div>
+    <div class="row styleN23_Copyright">Copyright © 2015 Svitla Systems. All Rights Reserved.</div>
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////// 51
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN51_PersonIcon{
+    text-align: center;
+    img{width: 76px}
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .styleN52_PersonContent{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+    p:first-letter{padding-left: 24px}
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+.styleN51_PersonIcon{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+
+}
+.styleN52_PersonContent{
+  font-family: "Open Sans";
+  color:$primaryTxt-color;
+  font-size: 14px; /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  padding-left: 10px;
+  p:first-letter{padding-left: 14px}
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+}
+
+
+

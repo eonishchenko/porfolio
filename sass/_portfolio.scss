@@ -1,0 +1,124 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN24_block{
+    border-radius: 5px;
+    background-color: #fff;
+    border-bottom:2px solid #c4c4c4 ;
+    margin:0 auto;
+    width:580px;
+    margin-top: 30px;
+    :hover{opacity: 0.5}
+    &:last-child{  margin-bottom: 50px;}
+
+  }
+  .styleN25_Img{img{ width:580px;}
+
+  }
+  .styleN26_Name{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 19px;
+    margin-bottom: 9px;
+
+
+  }
+  .styleN27_URL{
+    width: 241px;
+    a {
+      font-family: "Open Sans";
+      color:$link-color;
+      font-size: 20px; /* Приближение из-за подстановки шрифтов */
+      font-weight: 400;
+      text-align: left;
+
+
+    }
+    padding-bottom: 15px;
+    margin-bottom: 19px;
+    border-bottom: 1px dotted #c9c9c9;
+  }
+  .styleN28_Work{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+
+  }
+  .styleN29_blockPadding{
+    padding-left: 21px;
+
+  }
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN24_block{
+    border-radius: 5px;
+    background-color: #fff;
+    border-bottom:2px solid #c4c4c4 ;
+    margin-left: 29px;
+    width: 270px;
+    margin-top: 30px;
+    :hover{opacity: 0.5}
+
+    &:first-child,&:nth-child(5),&:nth-child(9),&:nth-child(13){
+      margin-left: 0px;
+    }
+    &:last-child{  margin-bottom: 50px;}
+
+  }
+  .styleN25_Img{}
+  .styleN26_Name{
+    font-family: "Open Sans";
+    color:$primaryTxt-color;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 9px;
+
+
+  }
+  .styleN27_URL{
+    width: 241px;
+    a {
+      font-family: "Open Sans";
+      color:$link-color;
+      font-size: 14px; /* Приближение из-за подстановки шрифтов */
+      font-weight: 400;
+      text-align: left;
+
+
+    }
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #c9c9c9;
+  }
+  .styleN28_Work{
+    font-family: "Open Sans";
+    color:$secondTXT-color;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 12px;
+
+  }
+  .styleN29_blockPadding{
+    padding-left: 16px;
+
+  }
+
+}
+
